@@ -1,0 +1,39 @@
+1, 29, 0 = Move DD
+2, 28, 0 = Open DD
+3, 27, 20 = DD. Move CC
+4, 26, 20 = DD. Move BB
+5, 25, 20 = DD. Open BB
+6, 24, 33 = BB and DD. Move AA
+7, 23, 33 = BB and DD. Move II
+8, 22, 33 = BB and DD. Move JJ
+9, 21, 33 = BB and DD. Open JJ
+10, 20, 54 = BB, DD, and JJ. Move II
+11, 19, 54 = BB, DD, and JJ. Move AA
+12, 18, 54 = BB, DD, and JJ. Move DD
+13, 17, 54 = BB, DD, and JJ. Move EE
+14, 16, 54 = BB, DD, and JJ. Move FF
+15, 15, 54 = BB, DD, and JJ. Move GG
+16, 14, 54 = BB, DD, and JJ. Move HH
+17, 13, 54 = BB, DD, and JJ. Open HH
+18, 12, 76 = BB, DD, HH, and JJ. Move GG
+19, 11, 76 = BB, DD, HH, and JJ. Move FF
+20, 10, 76 = BB, DD, HH, and JJ. Move EE
+21, 9, 76 = BB, DD, HH, and JJ. Open EE
+22, 8, 79 = BB, DD, EE, HH, and JJ. Move DD
+23, 7, 79 = BB, DD, EE, HH, and JJ. Move CC
+24, 6, 79 = BB, DD, EE, HH, and JJ. Open CC
+25, 5, 81 = BB, CC, DD, EE, HH, and JJ
+26, 4, 81 = BB, CC, DD, EE, HH, and JJ
+27, 3, 81 = BB, CC, DD, EE, HH, and JJ
+28, 2, 81 = BB, CC, DD, EE, HH, and JJ
+29, 1, 81 = BB, CC, DD, EE, HH, and JJ
+30, 0, 81 = BB, CC, DD, EE, HH, and JJ
+
+D: 28 _ 20 = 560
+B: 25 _ 13 = 325
+J: 21 _ 21 = 441
+H: 13 _ 22 = 286
+E: 9 _ 3 = 27
+C: 6 _ 2 = 12
+
+            1651

@@ -1,0 +1,22 @@
+1, 25 = M II M DD []
+2, 24 = M JJ O DD []
+3, 23 = O JJ M EE [DD]
+4, 22 = M II M FF [DD, JJ]
+5, 21 = M AA M GG [DD, JJ]
+6, 20 = M BB M HH [DD, JJ]
+7, 19 = O BB O HH [DD, JJ]
+8, 18 = M CC M GG [DD, JJ, BB, HH]
+9, 17 = O CC M FF [DD, JJ, BB, HH, CC]
+10, 16 = ---- M EE [DD, JJ, BB, HH, CC]
+11, 15 = ---- O EE [DD, JJ, BB, HH, CC]
+12, 14 = ---- ----- [DD, JJ, BB, HH, CC, EE]
+
+(1701, World(visited=[[('BB', 24), ('JJ', 20), ('EE', 15)], [('DD', 24), ('HH', 19), ('CC', 13)]], unvisited=[], busy=[-16, -14]))
+(1701, World(visited=[[('DD', 24), ('HH', 19), ('CC', 13)], [('BB', 24), ('JJ', 20), ('EE', 15)]], unvisited=[], busy=[-14, -16]))
+
+D 24
+J 23
+B 19
+H 19
+C 17
+E 15
